@@ -1,7 +1,8 @@
+require("dotenv").config();
 const mongoose = require("mongoose")
 
 async function connectDB() {
-    await mongoose.connect("mongodb+srv://yt:Xptq8jgvNNiRQ9UE@backend-learning.ub3ohov.mongodb.net/image-file_app")
+    await mongoose.connect(process.env.MONGODB_URI)
     console.log("Connected to DB")
 }
 
