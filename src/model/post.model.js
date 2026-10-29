@@ -2,7 +2,7 @@ const mongoose = require("mongoose")
 
 const postSchema = new mongoose.Schema({
     image: String,
-    caption: String
+    Description: String
 })
 
 const postModel = mongoose.model("post",postSchema)
