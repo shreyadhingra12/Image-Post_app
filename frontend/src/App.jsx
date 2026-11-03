@@ -1,6 +1,7 @@
 import React from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom" 
 import CreatePost from "./pages/CreatePost";
+import Feed from "./pages/Feed";
 /*
 BrowserRouter -> Enables routing in your React application.
 Routes ->	Groups all your route definitions.
@@ -11,7 +12,7 @@ const App = () =>{
    <Router>
       <Routes>
           <Route path="/create-post" element={<CreatePost/>}/>
-          <Route path="/about" element={<h1>About Us</h1>}/>
+          <Route path="/feed" element={<Feed/>}/>
       </Routes>
    </Router>
   )
