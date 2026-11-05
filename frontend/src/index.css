@@ -52,3 +52,14 @@ html{
   border-radius: 4px;
   cursor: pointer;
 }
+.feed-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+  padding: 20px;
+}
